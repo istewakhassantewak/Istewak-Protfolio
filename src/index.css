@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-background: #0f172a;
+  --color-primary: #3b82f6;
+  --color-secondary: #8b5cf6;
+  --color-accent: #06b6d4;
+  --color-text: #f8fafc;
+  --color-surface: #1e293b;
+  --color-surface-light: #334155;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html.light {
+    --color-background: #f8fafc;
+    --color-text: #0f172a;
+    --color-surface: #e2e8f0;
+    --color-surface-light: #cbd5e1;
+  }
+
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-text;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+
+  html.light .glass {
+    @apply bg-black/5 border-black/10;
+  }
+
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+  }
+
+  html.light .glass-card {
+    @apply bg-black/5 border-black/10;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
+  }
+
+  .gradient-border {
+    @apply relative;
+  }
+
+  .gradient-border::before {
+    content: '';
+    @apply absolute inset-0 rounded-2xl p-px pointer-events-none;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+}
