@@ -44,14 +44,14 @@ function createProject({
 
 export const featuredProjects = [
   createProject({
-    id: 'chef-table',
-    title: 'Chef Table',
+    id: 'gan-shunen',
+    title: 'Gan Shunen',
     description:
-      'Recipe management app built with React, Tailwind CSS, and REST API integration for exploring and managing cooking selections.',
-    liveUrl: 'https://chef-table-chi.vercel.app',
-    githubUrl: 'https://github.com/istewakhassantewak/Chef-table',
-    repoName: 'Chef-table',
-    topics: ['react', 'tailwindcss', 'javascript', 'fetch-api', 'daisyui'],
+      'Music web app for browsing and playing songs with a responsive HTML, CSS, and JavaScript interface.',
+    liveUrl: 'https://gan-shunen.vercel.app',
+    githubUrl: 'https://github.com/istewakhassantewak/Gan-Shunen',
+    repoName: 'Gan-Shunen',
+    topics: ['html5', 'css3', 'javascript'],
   }),
   createProject({
     id: 'career-hub',
@@ -62,6 +62,71 @@ export const featuredProjects = [
     githubUrl: 'https://github.com/istewakhassantewak/Career-Hub',
     repoName: 'Career-Hub',
     topics: ['react', 'react-router', 'tailwindcss', 'javascript', 'localstorage'],
+  }),
+  createProject({
+    id: 'book-review',
+    title: 'Book Review',
+    description:
+      'Book discovery and review app with React Router and localStorage-backed reading lists.',
+    liveUrl: 'https://book-review-ashy.vercel.app',
+    githubUrl: 'https://github.com/istewakhassantewak/Book-Review',
+    repoName: 'Book-Review',
+    topics: ['react', 'react-router', 'tailwindcss', 'javascript', 'localstorage'],
+  }),
+
+  createProject({
+    id: 'alphabet-clash-pro',
+    title: 'Alphabet Clash Pro',
+    description: 'Fast-paced typing game for testing keyboard speed and accuracy under time pressure.',
+    liveUrl: 'https://alphabet-clash-pro-topaz.vercel.app',
+    githubUrl: 'https://github.com/istewakhassantewak/Alphabet-Clash-Pro',
+    repoName: 'Alphabet-Clash-Pro',
+    topics: ['javascript', 'tailwindcss', 'html5'],
+  }),
+  createProject({
+    id: 'movie-dekhi',
+    title: 'Movie Dekhi',
+    description: 'Netflix-inspired streaming UI clone focused on responsive layout and modern visual design.',
+    liveUrl: 'https://movie-dekhi.vercel.app',
+    githubUrl: 'https://github.com/istewakhassantewak/Movie-Dekhi',
+    repoName: 'Movie-Dekhi',
+    topics: ['html5', 'css3', 'javascript'],
+  }),
+
+  createProject({
+    id: 'desh-ghuri-web',
+    title: 'Desh Ghuri Web',
+    description:
+      'Travel booking platform with authentication, package management, and payment gateway integration.',
+    liveUrl: 'https://desh-ghuri-web.vercel.app',
+    githubUrl: 'https://github.com/istewakhassantewak/Desh-Ghuri-Web',
+    repoName: 'Desh-Ghuri-Web',
+    topics: ['django', 'python', 'javascript', 'css3'],
+  }),
+
+
+
+];
+
+export const additionalProjects = [
+  createProject({
+    id: 'nikhut-ticketing',
+    title: 'Nikhut Ticketing',
+    description: 'Ticket booking interface with seat selection and a streamlined checkout flow.',
+    liveUrl: 'https://nikhut-ticketing.vercel.app',
+    githubUrl: 'https://github.com/istewakhassantewak/Nikhut-Ticketing',
+    repoName: 'Nikhut-Ticketing',
+    topics: ['javascript', 'tailwindcss', 'html5'],
+  }),
+  createProject({
+    id: 'chef-table',
+    title: 'Chef Table',
+    description:
+      'Recipe management app built with React, Tailwind CSS, and REST API integration for exploring and managing cooking selections.',
+    liveUrl: 'https://chef-table-chi.vercel.app',
+    githubUrl: 'https://github.com/istewakhassantewak/Chef-table',
+    repoName: 'Chef-table',
+    topics: ['react', 'tailwindcss', 'javascript', 'fetch-api', 'daisyui'],
   }),
   createProject({
     id: 'react-world-tour',
@@ -84,48 +149,6 @@ export const featuredProjects = [
     topics: ['react', 'tailwindcss', 'javascript', 'fetch-api'],
   }),
   createProject({
-    id: 'book-review',
-    title: 'Book Review',
-    description:
-      'Book discovery and review app with React Router and localStorage-backed reading lists.',
-    liveUrl: 'https://book-review-ashy.vercel.app',
-    githubUrl: 'https://github.com/istewakhassantewak/Book-Review',
-    repoName: 'Book-Review',
-    topics: ['react', 'react-router', 'tailwindcss', 'javascript', 'localstorage'],
-  }),
-  createProject({
-    id: 'gan-shunen',
-    title: 'Gan Shunen',
-    description:
-      'Music web app for browsing and playing songs with a responsive HTML, CSS, and JavaScript interface.',
-    liveUrl: 'https://gan-shunen.vercel.app',
-    githubUrl: 'https://github.com/istewakhassantewak/Gan-Shunen',
-    repoName: 'Gan-Shunen',
-    topics: ['html5', 'css3', 'javascript'],
-  }),
-];
-
-export const additionalProjects = [
-  createProject({
-    id: 'movie-dekhi',
-    title: 'Movie Dekhi',
-    description: 'Netflix-inspired streaming UI clone focused on responsive layout and modern visual design.',
-    liveUrl: 'https://movie-dekhi.vercel.app',
-    githubUrl: 'https://github.com/istewakhassantewak/Movie-Dekhi',
-    repoName: 'Movie-Dekhi',
-    topics: ['html5', 'css3', 'javascript'],
-  }),
-  createProject({
-    id: 'desh-ghuri-web',
-    title: 'Desh Ghuri Web',
-    description:
-      'Travel booking platform with authentication, package management, and payment gateway integration.',
-    liveUrl: 'https://desh-ghuri-web.vercel.app',
-    githubUrl: 'https://github.com/istewakhassantewak/Desh-Ghuri-Web',
-    repoName: 'Desh-Ghuri-Web',
-    topics: ['django', 'python', 'javascript', 'css3'],
-  }),
-  createProject({
     id: 'retro-forum',
     title: 'Retro Forum',
     description: 'Retro-styled forum for browsing posts and discussions with dynamic content rendering.',
@@ -134,15 +157,7 @@ export const additionalProjects = [
     repoName: 'Retro-Forum',
     topics: ['javascript', 'tailwindcss', 'fetch-api'],
   }),
-  createProject({
-    id: 'alphabet-clash-pro',
-    title: 'Alphabet Clash Pro',
-    description: 'Fast-paced typing game for testing keyboard speed and accuracy under time pressure.',
-    liveUrl: 'https://alphabet-clash-pro-topaz.vercel.app',
-    githubUrl: 'https://github.com/istewakhassantewak/Alphabet-Clash-Pro',
-    repoName: 'Alphabet-Clash-Pro',
-    topics: ['javascript', 'tailwindcss', 'html5'],
-  }),
+
   createProject({
     id: 'phone-hunting-api',
     title: 'Phone Hunting API',
@@ -152,15 +167,7 @@ export const additionalProjects = [
     repoName: 'Phone-Hunting-Api',
     topics: ['javascript', 'tailwindcss', 'fetch-api'],
   }),
-  createProject({
-    id: 'nikhut-ticketing',
-    title: 'Nikhut Ticketing',
-    description: 'Ticket booking interface with seat selection and a streamlined checkout flow.',
-    liveUrl: 'https://nikhut-ticketing.vercel.app',
-    githubUrl: 'https://github.com/istewakhassantewak/Nikhut-Ticketing',
-    repoName: 'Nikhut-Ticketing',
-    topics: ['javascript', 'tailwindcss', 'html5'],
-  }),
+
   createProject({
     id: 'geometry-genius',
     title: 'Geometry Genius',
